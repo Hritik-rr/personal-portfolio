@@ -1,7 +1,32 @@
 import { Outlet, NavLink } from "react-router-dom";
 import Footer from "./Footer";
+import { scrambleText } from "./scrambleFunction";
+import { useEffect } from "react";
+import { useScrambleEffect } from "./scrambleEffect";
 
 const Layout = () => {
+  useScrambleEffect([
+    {
+      id: "scrambleText8",
+      originalText: "[Hritik.works]",
+    },
+    {
+      id: "scrambleText9",
+      originalText: "[cv]",
+    },
+    {
+      id: "scrambleText10",
+      originalText: "[books]",
+    },
+    {
+      id: "scrambleText11",
+      originalText: "[posts]",
+    },
+    {
+      id: "scrambleText12",
+      originalText: "[lists]",
+    },
+  ]);
   return (
     <main className="body flex h-full min-h-screen w-full flex-col items-center justify-start p-8 pt-16 text-sm sm:p-16 sm:pt-16">
       <div className="sm:space-y-15 duration-[2000ms] h-full w-full max-w-md space-y-10 transition-all sm:max-w-md md:max-w-lg lg:max-w-2xl">
@@ -16,7 +41,7 @@ const Layout = () => {
             }
             end
           >
-            <span tabIndex={0} role="text">
+            <span id="scrambleText8" tabIndex={0} role="text">
               [Hritik.works]
             </span>
           </NavLink>
@@ -29,7 +54,7 @@ const Layout = () => {
                 : "transition-all duration-150 hover:bg-white hover:text-klein"
             }
           >
-            <span tabIndex={0} role="text">
+            <span id="scrambleText9" tabIndex={0} role="text">
               [cv]
             </span>
           </NavLink>
@@ -42,7 +67,7 @@ const Layout = () => {
                 : "transition-all duration-150 hover:bg-white hover:text-klein"
             }
           >
-            <span tabIndex={0} role="text">
+            <span id="scrambleText10" tabIndex={0} role="text">
               [books]
             </span>
           </NavLink>
@@ -55,7 +80,7 @@ const Layout = () => {
                 : "transition-all duration-150 hover:bg-white hover:text-klein"
             }
           >
-            <span tabIndex={0} role="text">
+            <span id="scrambleText11" tabIndex={0} role="text">
               [posts]
             </span>
           </NavLink>
@@ -68,7 +93,7 @@ const Layout = () => {
                 : "transition-all duration-150 hover:bg-white hover:text-klein"
             }
           >
-            <span tabIndex={0} role="text">
+            <span id="scrambleText12" tabIndex={0} role="text">
               [lists]
             </span>
           </NavLink>

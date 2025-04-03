@@ -1,16 +1,33 @@
+import { useScrambleEffect } from "../components/scrambleEffect";
+
 const HomePage = () => {
+  useScrambleEffect([
+    {
+      id: "scrambleText1",
+      originalText: "Hritik Ranjan",
+    },
+    {
+      id: "scrambleText2",
+      originalText: "Currently in: Bengaluru, India",
+    },
+  ]);
+
   return (
     <>
-      <h1 className="text-2xl">
-        <span tabIndex={0} role="text">
-          Hritik Ranjan
-        </span>
-      </h1>
-      <h3 className="text-slate-500">
-        <span tabIndex={0} role="text">
-          Currently in: Bengaluru, India
-        </span>
-      </h3>
+      <div>
+        <h1 className="text-2xl">
+          <span id="scrambleText1" tabIndex={0} role="text">
+            Hritik Ranjan
+          </span>
+        </h1>
+      </div>
+      <div>
+        <h3 className="text-slate-500">
+          <span id="scrambleText2" tabIndex={0} role="text">
+            Currently in: Bengaluru, India
+          </span>
+        </h3>
+      </div>
 
       <div className="h-full w-full items-start space-y-4 font-serif text-lg">
         <p>Hi, I'm Hritik.</p>
