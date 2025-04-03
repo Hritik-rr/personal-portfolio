@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: ['DepartureMono', 'monospace'],
-        serif: ['Georgia', 'serif'],
+        mono: ["DepartureMono", "monospace"],
+        serif: ["Georgia", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -17,6 +17,24 @@ module.exports = {
         klein: "#04055a", // Main dark blue background
         slate: {
           500: "#7b84b8", // For secondary text
+        },
+        swissCoffee: {
+          300: "#d6d3d1",
+          400: "#a8a29e",
+          500: "#79716b",
+          600: "#57534e",
+          700: "#44403c",
+          800: "#292524",
+          900: "#1c1917",
+        },
+        indigo: {
+          300: "#c7d2fe",
+          400: "#a855f7",
+          500: "#818cf8",
+          600: "#6366f1",
+          700: "#4f46e5",
+          800: "#4338ca",
+          900: "#3730a3",
         },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
@@ -94,18 +112,18 @@ module.exports = {
       container: {
         center: true,
         padding: {
-          DEFAULT: '1rem',
-          sm: '2rem',
-          lg: '4rem',
-          xl: '5rem',
-          '2xl': '6rem',
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
         },
         screens: {
-          sm: '640px',
-          md: '768px',
-          lg: '1024px',
-          xl: '1280px',
-          '2xl': '1536px',
+          sm: "640px",
+          md: "768px",
+          lg: "1024px",
+          xl: "1280px",
+          "2xl": "1536px",
         },
       },
     },
