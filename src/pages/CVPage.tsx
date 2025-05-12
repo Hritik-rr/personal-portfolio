@@ -152,7 +152,7 @@ const CVPage = () => {
             </div>
             <span className="bg-klein px-2 text-white">Dec 2022 - Nov 2023</span>
           </div>
-          <p className="font-medium">Software Engineer Intern</p>
+          <p className="font-medium">Software Engineer</p>
           <p className="text-slate-300">
             <li>
               Build multiple core in-house services end to end and maintained it closely till
@@ -195,7 +195,7 @@ const CVPage = () => {
             </div>
             <span className="bg-klein px-2 text-white">Sept 2022 - Dec 2022</span>
           </div>
-          <p className="font-medium">Software Engineer</p>
+          <p className="font-medium">Software Engineer Intern</p>
           <p className="text-slate-300">
             <li>
               Improved a lot of minor features and code debugging from adding new entries in API to
