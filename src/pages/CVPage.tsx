@@ -150,7 +150,7 @@ const CVPage = () => {
               <h3 className="font-medium">Procuzy</h3>
               <span className="bg-klein px-2 text-white">Bengaluru, India</span>
             </div>
-            <span className="bg-klein px-2 text-white">Dec 2023 - Nov 2024</span>
+            <span className="bg-klein px-2 text-white">Dec 2022 - Nov 2023</span>
           </div>
           <p className="font-medium">Software Engineer Intern</p>
           <p className="text-slate-300">
@@ -193,7 +193,7 @@ const CVPage = () => {
               <h3 className="font-medium">Procuzy</h3>
               <span className="bg-klein px-2 text-white">Bengaluru, India</span>
             </div>
-            <span className="bg-klein px-2 text-white">Sept 2023 - Dec 2023</span>
+            <span className="bg-klein px-2 text-white">Sept 2022 - Dec 2022</span>
           </div>
           <p className="font-medium">Software Engineer</p>
           <p className="text-slate-300">
